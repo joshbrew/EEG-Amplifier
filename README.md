@@ -14,7 +14,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 ![amp2](./ampSMT.PNG)
 
 ### 4mm Snap Button Electrode Mountholes
-![amp2mount](./ampSMTMount.PNG)
+![amp2mount](./ampSMTMounted.PNG)
 ![amp2mountCast](./ampSMTMountholeC.PNG)
 Sized for Florida Instruments reusable plastic snap electrodes.
 
