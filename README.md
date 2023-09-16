@@ -11,6 +11,6 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 
 Design reference by Abishek Parikh.
 
-EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
+EAGLE drawings by Josh Brewster. Still adding BOM. Works in free EAGLE or you can import them elsewhere usually.
 
 TL08XH is the latest for this design.
