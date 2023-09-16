@@ -15,7 +15,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 
 ### 4mm Snap Button Electrode Mountholes
 ![amp2mount](./ampSMTMounthole.PNG)
-![amp2mountCast](./ampSMTMountholeCastell.PNG)
+![amp2mountCast](./ampSMTMountholeCast.PNG)
 Sized for Florida Instruments reusable plastic snap electrodes.
 
 ### TL084HCN (A,B,H, etc) Thruhole amp (for DIY)
