@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-09-16T19:58:31Z",
+        "CreationDate": "2023-09-16T20:02:35Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,11 +13,11 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "EEGAmp_SMT_MountHole - Copy"
+            "ProjectId": "EEGAmp_SMT_MountHole_Castellated"
         },
         "Owner": "Joshua Brewster <brewster.joshua1@gmail.com>",
         "Size": {
-            "X": 25.527,
+            "X": 19.939,
             "Y": 11.2014
         }
     }
