@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-09-16T04:54:47Z",
+        "CreationDate": "2023-09-16T18:35:59Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,12 +13,12 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "EEGAmp_Thruhole"
+            "ProjectId": "EEGAmp_SMT"
         },
         "Owner": "Joshua Brewster <brewster.joshua1@gmail.com>",
         "Size": {
-            "X": 29.972,
-            "Y": 21.59
+            "X": 21.59,
+            "Y": 11.176
         }
     }
 }

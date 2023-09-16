@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-09-16T18:34:28Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "EEGAmp_SMT_MountHole"
+        },
+        "Owner": "Joshua Brewster <brewster.joshua1@gmail.com>",
+        "Size": {
+            "X": 25.781,
+            "Y": 11.2014
+        }
+    }
+}
