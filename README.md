@@ -2,6 +2,8 @@
 
 The main circuit here uses 4 low noise op amps to achieve EEG differential amplification. This should plug into any single ended ADC (or put your negative input to ground) to allow even as low as 10 bit EEG.
 
+The amps cost 10 cents from TI, not including the PCB which will vary.
+
 The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All calculations are in the pdf for your needs. If using battery power a voltage divider should work for a reference. 
 
 ![amp](./amp.PNG)
