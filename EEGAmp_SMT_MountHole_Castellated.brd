@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1715,9 +1715,9 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="91" x="33.02" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.845" y="30.353" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="AIN-" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-17" package3d_urn="urn:adsk.eagle:package:27949/1" value="PTR1PAD1-17" x="19.7104" y="21.3868" smashed="yes" rot="R90">
-<attribute name="POPULARITY" value="0" x="19.7104" y="21.3868" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="19.7104" y="21.3868" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="AIN-" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-17" package3d_urn="urn:adsk.eagle:package:27949/1" value="PTR1PAD1-17" x="19.7104" y="19.685" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="0" x="19.7104" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="19.7104" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="H1" library="holes" package="4,1-PAD" value="MOUNT-PAD-ROUND4.1" x="13.7414" y="25.5524" smashed="yes"/>
 </elements>
@@ -1780,8 +1780,9 @@ design rules under a new name.</description>
 <via x="25.4" y="24.511" extent="1-16" drill="0.35"/>
 <wire x1="25.4" y1="24.511" x2="25.4" y2="22.925" width="0.1524" layer="1"/>
 <contactref element="AIN-" pad="TP"/>
-<wire x1="19.7104" y1="21.3868" x2="22.8346" y2="24.511" width="0.254" layer="16"/>
-<wire x1="22.8346" y1="24.511" x2="25.4" y2="24.511" width="0.254" layer="16"/>
+<wire x1="23.0886" y1="24.511" x2="19.7104" y2="21.1328" width="0.254" layer="16"/>
+<wire x1="19.7104" y1="19.685" x2="19.7104" y2="21.1328" width="0.254" layer="16"/>
+<wire x1="23.0886" y1="24.511" x2="25.4" y2="24.511" width="0.254" layer="16"/>
 </signal>
 <signal name="VREF">
 <contactref element="U1" pad="12"/>
@@ -1803,10 +1804,9 @@ design rules under a new name.</description>
 <wire x1="27.813" y1="24.511" x2="27.94" y2="24.384" width="0.1524" layer="1"/>
 <wire x1="27.94" y1="24.384" x2="27.94" y2="22.925" width="0.1524" layer="1"/>
 <wire x1="27.813" y1="24.511" x2="26.8224" y2="25.5016" width="0.254" layer="16"/>
-<wire x1="26.8224" y1="25.5016" x2="19.2024" y2="25.5016" width="0.254" layer="16"/>
 <contactref element="H1" pad="B4,1"/>
-<wire x1="19.2024" y1="25.5016" x2="13.7922" y2="25.5016" width="0.1524" layer="16"/>
 <wire x1="13.7922" y1="25.5016" x2="13.7414" y2="25.5524" width="0.1524" layer="16"/>
+<wire x1="26.8224" y1="25.5016" x2="13.7922" y2="25.5016" width="0.254" layer="16"/>
 </signal>
 <signal name="2IN-">
 <contactref element="U1" pad="6"/>
