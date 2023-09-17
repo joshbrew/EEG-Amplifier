@@ -11,18 +11,22 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 
 ### TL084CDR/TL084OD (etc.) mount.
-![amp2](./ampsmd.PNG)
+![amp2](./images/ampsmd.PNG)
 
 ### 4mm Snap Button Electrode Mountholes
-![amp2mount](./ampsmtmount.PNG)
-![amp2mountCast](./ampsmtmountholecastellated.PNG)
+![amp2mount](./images/ampsmtmount.PNG)
+![amp2mountCast](./images/ampsmtmountholecastellated.PNG)
 Sized for Florida Instruments reusable plastic snap electrodes.
 
 ### TL084HCN (A,B,H, etc) Thruhole amp (for DIY)
-![amp](./ampTH.PNG)
+![amp](./images/ampTH.PNG)
 
 ### Schematics
-![schem](./schematics.PNG)
+![schem](./images/schematics.PNG)
+
+### Noise vs Measured Bandwidth
+![schem](./images/noisecalc.PNG)
+Note: GPT did this, might be inaccurate.
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
