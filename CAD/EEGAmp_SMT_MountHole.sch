@@ -9525,8 +9525,8 @@ R2, R3: 1kΩ</text>
 
 R7: 1kΩ
 R8: 1MΩ</text>
-<text x="218.44" y="86.36" size="1.778" layer="97">VRef can be a voltage divider 
-circuit if on battery power</text>
+<text x="218.44" y="86.36" size="1.778" layer="97">VREF can be VDD or a dedicated
+ADC voltage reference</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="170.18" y="66.04" smashed="yes">
