@@ -21,6 +21,8 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ### TL084HCN (A,B,H, etc) Thruhole amp (for DIY)
 ![amp](./ampTH.PNG)
 
+### Schematics
+[schem](./schematics.PNG)
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
