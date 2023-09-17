@@ -4,7 +4,7 @@ The main circuit here uses 4 low noise op amps to achieve EEG differential ampli
 
 The amps cost 10 cents from TI, not including the PCB which will vary.
 
-The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All calculations are in the pdf for your needs. If using battery power a voltage divider should work for a reference. 
+The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All calculations are in the pdf for your needs.
 
 ### Resources
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/1rzFOKtwm5F1gYTblCt51H4664hxHK5iFGmpR6K0Omsg/edit?usp=sharing)
