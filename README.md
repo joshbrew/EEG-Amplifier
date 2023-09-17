@@ -22,7 +22,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ![amp](./ampTH.PNG)
 
 ### Schematics
-[schem](./schematics.PNG)
+![schem](./schematics.PNG)
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
