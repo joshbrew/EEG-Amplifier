@@ -11,7 +11,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 
 ### TL084CDR/TL084OD (etc.) mount.
-![amp2](./ampsmt.PNG)
+![amp2](./ampsmd.PNG)
 
 ### 4mm Snap Button Electrode Mountholes
 ![amp2mount](./ampsmtmount.PNG)
