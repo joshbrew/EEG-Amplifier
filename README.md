@@ -26,7 +26,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 
 ### Noise vs Measured Bandwidth (set by bandpass filter on gain amp)
 ![schem](./images/noisecalcs.PNG)
-Note: might be inaccurate.
+Note: probably inaccurate. Lower frequencies have higher base noise density. This number is based on the 1KHz noise density.
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
