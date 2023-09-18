@@ -24,7 +24,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ### Schematics
 ![schem](./images/schematic.PNG)
 
-### Noise vs Measured Bandwidth
+### Noise vs Measured Bandwidth (set by bandpass filter on gain amp)
 ![schem](./images/noisecalcs.PNG)
 Note: might be inaccurate.
 
