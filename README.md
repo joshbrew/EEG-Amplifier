@@ -23,6 +23,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 
 ### Schematics
 ![schem](./images/schematic.PNG)
+The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
 ### Noise vs Measured Bandwidth
 ![calcs](./images/noisecalcs.PNG)
