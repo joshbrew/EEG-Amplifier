@@ -10,7 +10,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/1rzFOKtwm5F1gYTblCt51H4664hxHK5iFGmpR6K0Omsg/edit?usp=sharing)
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 
-### TL084CDR/TL084OD (etc.) mount.
+### TL084CDR/TL084OD (or compatible) SMT mount.
 ![amp2](./images/ampsmt.PNG)
 
 ### 4mm Snap Button Electrode Mountholes
@@ -20,6 +20,9 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 
 ### TL084HCN (A,B,H, etc) Thruhole amp (for DIY)
 ![amp](./images/ampthroughole.PNG)
+
+### OPA4377 (or  compatible) SMT mount.
+![amp3](./images/ampsmt.PNG)
 
 ### Schematics
 ![schem](./images/schematic.PNG)
