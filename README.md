@@ -12,7 +12,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 
 ### TL084CDR/TL084OD/OPA4202ID (or compatible SOIC14) SMT mount.
 ![amp2](./images/ampsmt.PNG)
-OPA4202ID is more expensive but better quality.
+OPA4202ID is more expensive but MUCH better quality, with better input impedance (3TΩ) and a 9nV/sqrt(Hz) noise density starting at 0.1Hz. The TL084's spectral noise doesn't bottom out until near 1kHz.
 
 ### 4mm Snap Button Electrode Mountholes
 ![amp2mount](./images/ampsmtmounthole.PNG)
@@ -30,10 +30,12 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
 ### Noise vs Measured Bandwidth on TL084
-![calcs](./images/noisecalcs.PNG)
+![calcs](./images/noisecalc.PNG)
+Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
+
 TL084 noise density:
 ![density](./images/tl084noisedensity.PNG)
-Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
+
 OPA4202 noise density:
 ![density2](./images/opax202noisedensity.PNG)
 
