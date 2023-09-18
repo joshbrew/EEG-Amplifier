@@ -10,8 +10,9 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/1rzFOKtwm5F1gYTblCt51H4664hxHK5iFGmpR6K0Omsg/edit?usp=sharing)
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 
-### TL084CDR/TL084OD (or compatible) SMT mount.
+### TL084CDR/TL084OD/OPA4202ID (or compatible SOIC14) SMT mount.
 ![amp2](./images/ampsmt.PNG)
+OPA4202ID is more expensive but better quality.
 
 ### 4mm Snap Button Electrode Mountholes
 ![amp2mount](./images/ampsmtmounthole.PNG)
@@ -21,7 +22,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ### TL084HCN (A,B,H, etc) Thruhole amp (for DIY)
 ![amp](./images/ampthroughole.PNG)
 
-### OPA4377 (or  compatible) SMT mount.
+### OPA4202IPW or OPA4377 (or  compatible TSSOP14) SMT mount.
 ![amp3](./images/ampsmtOPA4377.PNG)
 
 ### Schematics
@@ -30,10 +31,13 @@ The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
 ### Noise vs Measured Bandwidth on TL084
 ![calcs](./images/noisecalcs.PNG)
+TL084 noise density:
 ![density](./images/tl084noisedensity.PNG)
 Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
+OPA4202 noise density:
+![density2](./images/opax202noisedensity.PNG)
 
-OPA4377 is more expensive but has lower noise.
+OPA4202 or OPA4377 are about a dollar. I think the 4202 is better based on the noise.
 
 ## Also included in CAD/singular_amps
 
