@@ -29,7 +29,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ![schem](./images/schematic.PNG)
 The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
-### Noise vs Measured Bandwidth on TL084
+### Noise vs Measured Bandwidth on OPA4202
 ![calcs](./images/noisecalc.PNG)
 Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
 
