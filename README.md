@@ -22,7 +22,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ![amp](./images/ampthroughole.PNG)
 
 ### OPA4377 (or  compatible) SMT mount.
-![amp3](./images/ampsmt.PNG)
+![amp3](./images/ampsmtOPA4377.PNG)
 
 ### Schematics
 ![schem](./images/schematic.PNG)
