@@ -26,7 +26,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 
 ### Noise vs Measured Bandwidth
 ![schem](./images/noisecalcs.PNG)
-Note: GPT did this, might be inaccurate.
+Note: might be inaccurate.
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
