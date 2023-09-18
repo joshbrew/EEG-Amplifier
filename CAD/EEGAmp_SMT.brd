@@ -1598,6 +1598,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="92" x="16.891" y="25.146" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.716" y="28.956" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2nF" x="20.32" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.828" y="22.733" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="16" x="20.32" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="20.32" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1677,11 +1682,16 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R4" pad="1"/>
 <wire x1="29.21" y1="22.925" x2="29.21" y2="20.701" width="0.1524" layer="1"/>
-<wire x1="28.6076" y1="20.0986" x2="21.4304" y2="20.0986" width="0.1524" layer="1"/>
-<wire x1="20.328" y1="21.201" x2="20.328" y2="23.495" width="0.1524" layer="1"/>
 <wire x1="29.21" y1="20.701" x2="28.6076" y2="20.0986" width="0.1524" layer="1"/>
-<wire x1="21.4304" y1="20.0986" x2="20.328" y2="21.201" width="0.1524" layer="1"/>
 <wire x1="20.328" y1="24.638" x2="20.328" y2="23.495" width="0.1524" layer="1"/>
+<contactref element="C4" pad="1"/>
+<wire x1="20.328" y1="23.495" x2="20.328" y2="22.248" width="0.1524" layer="1"/>
+<wire x1="20.328" y1="22.248" x2="20.32" y2="22.24" width="0.1524" layer="1"/>
+<wire x1="19.9064" y1="20.0986" x2="19.558" y2="20.447" width="0.1524" layer="1"/>
+<wire x1="19.558" y1="20.447" x2="19.558" y2="21.732" width="0.1524" layer="1"/>
+<wire x1="20.066" y1="22.24" x2="19.558" y2="21.732" width="0.1524" layer="1"/>
+<wire x1="20.066" y1="22.24" x2="20.32" y2="22.24" width="0.1524" layer="1"/>
+<wire x1="28.6076" y1="20.0986" x2="19.9064" y2="20.0986" width="0.1524" layer="1"/>
 </signal>
 <signal name="3IN+">
 <contactref element="U1" pad="10"/>
@@ -1757,6 +1767,9 @@ design rules under a new name.</description>
 <wire x1="24.13" y1="21.217" x2="24.13" y2="22.925" width="0.1524" layer="1"/>
 <wire x1="21.463" y1="21.217" x2="21.598" y2="21.082" width="0.1524" layer="1"/>
 <wire x1="21.598" y1="21.082" x2="24.265" y2="21.082" width="0.1524" layer="1"/>
+<contactref element="C4" pad="2"/>
+<wire x1="20.32" y1="20.94" x2="20.597" y2="21.217" width="0.1524" layer="1"/>
+<wire x1="20.597" y1="21.217" x2="21.463" y2="21.217" width="0.1524" layer="1"/>
 </signal>
 <signal name="4IN-">
 <contactref element="U1" pad="13"/>

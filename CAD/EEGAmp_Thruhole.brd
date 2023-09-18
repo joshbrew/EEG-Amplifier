@@ -1627,6 +1627,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="92" x="14.733928125" y="25.319390625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="11.558928125" y="29.129390625" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="" x="17.641771875" y="17.9807625" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.664040625" y="14.94226875" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="28" x="17.641771875" y="17.9807625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="20.435771875" y="16.3297625" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1726,6 +1731,11 @@ design rules under a new name.</description>
 <wire x1="29.718" y1="14.478" x2="29.718" y2="17.272" width="0.254" layer="1"/>
 <wire x1="29.718" y1="17.272" x2="28.702" y2="18.288" width="0.254" layer="1"/>
 <wire x1="28.702" y1="18.288" x2="28.702" y2="20.5116" width="0.254" layer="1"/>
+<contactref element="C4" pad="2"/>
+<wire x1="17.641771875" y1="19.2507625" x2="18.133575" y2="19.2507625" width="0.254" layer="16"/>
+<wire x1="18.133575" y1="19.2507625" x2="18.964134375" y2="18.420203125" width="0.254" layer="16"/>
+<wire x1="18.964134375" y1="18.420203125" x2="24.008203125" y2="18.420203125" width="0.254" layer="16"/>
+<wire x1="24.008203125" y1="18.420203125" x2="25.019" y2="19.431" width="0.254" layer="16"/>
 </signal>
 <signal name="3IN+">
 <contactref element="U1" pad="10"/>
@@ -1805,6 +1815,9 @@ design rules under a new name.</description>
 <wire x1="21.971" y1="19.431" x2="19.939" y2="17.399" width="0.254" layer="1"/>
 <wire x1="21.971" y1="18.288" x2="21.971" y2="19.431" width="0.254" layer="1"/>
 <wire x1="25.019" y1="15.24" x2="21.971" y2="18.288" width="0.254" layer="1"/>
+<contactref element="C4" pad="1"/>
+<wire x1="17.641771875" y1="16.7107625" x2="18.330009375" y2="17.399" width="0.254" layer="16"/>
+<wire x1="18.330009375" y1="17.399" x2="19.939" y2="17.399" width="0.254" layer="16"/>
 </signal>
 <signal name="4IN-">
 <contactref element="U1" pad="13"/>

@@ -1,7 +1,7 @@
 Screaming Circuits SMD component position file.
 Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
 
-Centroid Data for pc board: "EEGAmp_SMT.brd" as of: 9/16/2023 9:26 PM
+Centroid Data for pc board: "EEGAmp_SMT.brd" as of: 9/17/2023 6:48 PM
 Measurements are in inches. Comma delimited
 Only surface mount components included
 
@@ -9,6 +9,7 @@ RefDes,Layer,LocationX,LocationY,Rotation
 C1,Top,0.760,1.100,90
 C2,Top,0.840,1.100,270
 C3,Top,1.075,0.830,180
+C4,Top,0.800,0.850,270
 R1,Top,0.820,0.925,180
 R2,Top,0.975,0.830,180
 R3,Top,0.845,0.855,90

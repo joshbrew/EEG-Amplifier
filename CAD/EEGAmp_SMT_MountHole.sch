@@ -9499,6 +9499,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="AIN-" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1" value="PTR1PAD1-17"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1"/>
 <part name="REFOUT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1" value="PTR1PAD1-17"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9602,6 +9603,10 @@ ADC voltage reference</text>
 <attribute name="NAME" x="138.43" y="13.716" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="142.24" y="11.43" size="1.778" layer="97" rot="R270"/>
 </instance>
+<instance part="C4" gate="G$1" x="81.28" y="83.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="82.296" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.216" y="79.629" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9692,6 +9697,11 @@ ADC voltage reference</text>
 <wire x1="96.52" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
 <junction x="96.52" y="93.98"/>
 <label x="99.06" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
+<label x="86.36" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3IN+" class="0">
@@ -9807,6 +9817,11 @@ ADC voltage reference</text>
 <label x="66.04" y="93.98" size="1.778" layer="95"/>
 <wire x1="60.96" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
 <junction x="60.96" y="93.98"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<label x="71.12" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4IN-" class="0">
