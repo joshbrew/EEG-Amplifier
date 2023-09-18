@@ -28,14 +28,21 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ![schem](./images/schematic.PNG)
 The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
-### Noise vs Measured Bandwidth
+### Noise vs Measured Bandwidth on TL084
 ![calcs](./images/noisecalcs.PNG)
 ![density](./images/noisedensity.PNG)
 Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
+
+OPA4377 is more expensive but has lower noise.
+
+## Also included in CAD/singular_amps
+
+- Single and Dual OPA202 gain amplifiers. E.g. for pre-amplification. Great low frequency noise density. 
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
 TL08XH is the latest for this design.
 
+Best prices are on TI.com just FYI...
 
 Free source!
