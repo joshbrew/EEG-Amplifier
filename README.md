@@ -12,7 +12,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 
 ### TL084CDR/TL084OD/OPA4202ID (or compatible SOIC14) SMT mount.
 ![amp2](./images/ampsmt.PNG)
-OPA4202ID is more expensive but better quality.
+OPA4202ID is more expensive but MUCH better quality, with better input impedance (3TΩ) and a 9nV/sqrt(Hz) noise density starting at 0.1Hz. The TL084's spectral noise doesn't bottom out until near 1kHz.
 
 ### 4mm Snap Button Electrode Mountholes
 ![amp2mount](./images/ampsmtmounthole.PNG)
