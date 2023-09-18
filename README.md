@@ -31,9 +31,11 @@ The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
 ### Noise vs Measured Bandwidth on TL084
 ![calcs](./images/noisecalcs.PNG)
+Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
+
 TL084 noise density:
 ![density](./images/tl084noisedensity.PNG)
-Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
+
 OPA4202 noise density:
 ![density2](./images/opax202noisedensity.PNG)
 
