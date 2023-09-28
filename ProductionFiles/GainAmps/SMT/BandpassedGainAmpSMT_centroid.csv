@@ -1,0 +1,15 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "BandpassedGainAmpSMT.brd" as of: 9/27/2023 5:20 PM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+C1,Top,0.304,0.357,90
+C2,Top,0.259,0.449,270
+C3,Top,0.157,0.263,0
+R1,Top,0.260,0.353,90
+R2,Top,0.305,0.445,270
+R3,Top,0.173,0.566,180
+U1,Top,0.167,0.413,270
