@@ -54,10 +54,10 @@ The circuit is straight out of the datasheet for your typical bandpassed gain am
 ![smtgain2](./images/singleampSMTmounthole.PNG)
 
 ### OPA202 SOIC8 package and thruhole resistors/capacitors (easier to hand solder)
-![smtgain3](./images/singleampthruholemounthole.PNG)
+![smtgain3](./images/singleampthruhole.PNG)
 
 ### OPA202 SOIC8 package thruhole with 4mm electrode mount
-![smtgain3](./images/singleampthruhole.PNG)
+![smtgain4](./images/singleampthruholemounthole.PNG)
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
