@@ -7,8 +7,10 @@ The amps cost 10 cents from TI, not including the PCB which will vary.
 The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All calculations are in the pdf for your needs.
 
 ### Resources
-- [Bill of Materials](https://docs.google.com/spreadsheets/d/1rzFOKtwm5F1gYTblCt51H4664hxHK5iFGmpR6K0Omsg/edit?usp=sharing)
+- [Differential Amp BOM](https://docs.google.com/spreadsheets/d/1rzFOKtwm5F1gYTblCt51H4664hxHK5iFGmpR6K0Omsg/edit?usp=sharing)
+- [Gain Amp BOM](https://docs.google.com/spreadsheets/d/1fu1xdZPcOAWwaKk6sFUOHw02OROvW1wCZvjth2xU8xA/edit?usp=sharing)
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
+Other info pulled from datasheets.
 
 ### OPA4202ID/TL084CDR/TL084OD (or compatible SOIC14) SMT mount.
 ![amp2](./images/ampsmt.PNG)
