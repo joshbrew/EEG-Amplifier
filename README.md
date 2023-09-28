@@ -45,10 +45,21 @@ OPA4202 or OPA4377 are about a dollar. I think the 4202 is better based on the n
 
 Single and Dual OPA202/OPA2202 gain amplifiers. E.g. for pre-amplification. Great low frequency noise density. 
 ![gain](./images/NonInvertingAmp.PNG)
+The circuit is straight out of the datasheet for your typical bandpassed gain amp. Should work attached to a regular electrode to amplify 0-100Hz or other desired bandpowers.
+
+### OPA202 (or pin compatible) VSSOP8 package (or pin compatible)
+![smtgain](./images/singleampsmt.PNG)
+
+### OPA202 VSSOP8 package with 4mm electrode mount
+![smtgain2](./images/singleampSMTmounthole.PNG)
+
+### OPA202 SOIC8 package and thruhole resistors/capacitors (easier to hand solder)
+![smtgain3](./images/singleampthruholemounthole.PNG)
+
+### OPA202 SOIC8 package thruhole with 4mm electrode mount
+![smtgain3](./images/singleampthruhole.PNG)
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
-
-TL08XH is the latest for this design.
 
 Best prices are on TI.com just FYI...
 
