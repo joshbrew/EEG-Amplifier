@@ -10,7 +10,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Bill of Materials](https://docs.google.com/spreadsheets/d/1rzFOKtwm5F1gYTblCt51H4664hxHK5iFGmpR6K0Omsg/edit?usp=sharing)
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 
-### TL084CDR/TL084OD/OPA4202ID (or compatible SOIC14) SMT mount.
+### OPA4202ID/TL084CDR/TL084OD (or compatible SOIC14) SMT mount.
 ![amp2](./images/ampsmt.PNG)
 OPA4202ID is more expensive but MUCH better quality, with better input impedance (3TΩ) and a 9nV/sqrt(Hz) noise density starting at 0.1Hz. The TL084's spectral noise doesn't bottom out until near 1kHz.
 
@@ -29,7 +29,7 @@ Sized for Florida Instruments reusable plastic snap electrodes.
 ![schem](./images/schematic.PNG)
 The BioAmp EXG Pill has a different layout you can check out. Same chipset.
 
-### Noise vs Measured Bandwidth on TL084
+### Noise vs Measured Bandwidth on OPA4202
 ![calcs](./images/noisecalc.PNG)
 Note: Noise calcs are probably inaccurate. Lower frequencies have higher noise density. Adjust bandpass accordingly.
 
