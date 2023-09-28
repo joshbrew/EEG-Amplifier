@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2023-09-28T00:28:30Z",
+        "CreationDate": "2023-09-28T00:58:47Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -18,7 +18,7 @@
         "Owner": "Joshua Brewster <brewster.joshua1@gmail.com>",
         "Size": {
             "X": 10.668,
-            "Y": 27.94
+            "Y": 26.924
         }
     }
 }

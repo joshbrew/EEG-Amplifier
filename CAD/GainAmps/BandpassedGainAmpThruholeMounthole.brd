@@ -73,19 +73,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="10.922" y1="2.032" x2="1.778" y2="2.032" width="0.3048" layer="20"/>
-<wire x1="1.778" y1="2.032" x2="1.016" y2="2.794" width="0.3048" layer="20" curve="-90"/>
-<wire x1="1.016" y1="2.794" x2="1.016" y2="27.432" width="0.3048" layer="20"/>
+<wire x1="10.922" y1="3.048" x2="1.778" y2="3.048" width="0.3048" layer="20"/>
+<wire x1="1.778" y1="3.048" x2="1.016" y2="3.81" width="0.3048" layer="20" curve="-90"/>
+<wire x1="1.016" y1="3.81" x2="1.016" y2="27.432" width="0.3048" layer="20"/>
 <wire x1="1.016" y1="27.432" x2="3.556" y2="29.972" width="0.3048" layer="20" curve="-90"/>
 <wire x1="3.556" y1="29.972" x2="9.398" y2="29.972" width="0.3048" layer="20"/>
 <wire x1="9.398" y1="29.972" x2="11.684" y2="27.686" width="0.3048" layer="20" curve="-90"/>
-<wire x1="11.684" y1="27.686" x2="11.684" y2="2.794" width="0.3048" layer="20"/>
-<wire x1="11.684" y1="2.794" x2="10.922" y2="2.032" width="0.3048" layer="20" curve="-90"/>
+<wire x1="11.684" y1="27.686" x2="11.684" y2="3.81" width="0.3048" layer="20"/>
+<wire x1="11.684" y1="3.81" x2="10.922" y2="3.048" width="0.3048" layer="20" curve="-90"/>
 <text x="11.303" y="21.59" size="1.778" layer="26" rot="MR0">IN</text>
 <text x="1.397" y="6.858" size="1.016" layer="26" rot="MR180">VDD GND OUT</text>
-<dimension x1="1.778" y1="2.032" x2="3.556" y2="29.972" x3="-1.397" y3="16.002" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="1.016" y1="27.432" x2="11.684" y2="27.686" x3="6.35" y3="33.147" textsize="1.778" layer="47" dtype="horizontal"/>
 <text x="8.763" y="21.59" size="1.778" layer="25">IN</text>
+<dimension x1="3.556" y1="29.972" x2="1.778" y2="3.048" x3="-0.762" y3="16.51" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1575,16 +1575,16 @@ design rules under a new name.</description>
 <wire x1="7.001934375" y1="7.382934375" x2="6.35" y2="6.731" width="0.3048" layer="16"/>
 <wire x1="6.35" y1="6.731" x2="6.35" y2="4.064" width="0.3048" layer="16"/>
 <polygon width="0.3048" layer="1">
-<vertex x="0.127" y="1.397"/>
-<vertex x="12.446" y="1.397"/>
-<vertex x="12.446" y="30.353"/>
-<vertex x="0.127" y="30.353"/>
+<vertex x="0.127" y="2.413"/>
+<vertex x="12.446" y="2.413"/>
+<vertex x="12.446" y="31.369"/>
+<vertex x="0.127" y="31.369"/>
 </polygon>
 <polygon width="0.3048" layer="16">
-<vertex x="0.381" y="1.524"/>
-<vertex x="0.381" y="30.48"/>
-<vertex x="12.065" y="30.48"/>
-<vertex x="12.065" y="1.524"/>
+<vertex x="0.381" y="2.54"/>
+<vertex x="0.381" y="31.496"/>
+<vertex x="12.065" y="31.496"/>
+<vertex x="12.065" y="2.54"/>
 </polygon>
 <via x="9.144" y="20.447" extent="1-16" drill="0.35"/>
 </signal>
