@@ -65,8 +65,8 @@ OPA4202 or OPA4377 are about a dollar. I think the 4202 is better based on the n
 ## Also included in CAD/singular_amps
 
 Single and Dual OPA202/OPA2202 gain amplifiers. E.g. for pre-amplification. Great low frequency noise density. 
-![gain](./images/NonInvertingAmp.PNG)
-The circuit is straight out of the datasheet for your typical bandpassed gain amp. Should work attached to a regular electrode to amplify 0-100Hz or other desired bandpowers.
+![gain](./images/InvertingAmp.PNG)
+
 
 ### OPA202 (or pin compatible) VSSOP8 package (or pin compatible)
 ![smtgain](./images/singleamp_SMTr2.PNG)
