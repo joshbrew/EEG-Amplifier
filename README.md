@@ -12,7 +12,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 Other info pulled from datasheets.
 
-Note my RC bandpass filter notes in the schematics were incorrect, you can calculate here, just put it between 1-100Hz, lower values are harder without larger capacitors. 
+Note my previous OPA202 config was incorrect. And use this formula for calculating the bandpass: 
 <table>
   <tr>
     <td>
@@ -28,7 +28,6 @@ Note my RC bandpass filter notes in the schematics were incorrect, you can calcu
     </td>
   </tr>
 </table>
-
 
 
 ### OPA4202ID/TL084CDR/TL084OD (or compatible SOIC14) SMT mount.
