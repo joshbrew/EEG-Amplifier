@@ -12,7 +12,7 @@ The reference design is for 1000x gain at 5v with a 2.5v voltage reference. All 
 - [Design reference](https://github.com/joshbrew/EEG-Amplifier/blob/main/EEG_Active_electrode_design.pdf) by Abishek Parikh. 
 Other info pulled from datasheets.
 
-Note my RC bandpass filter notes in the schematics were wrong as I tried to scale them differently (will update in files later), here are different calculator values:
+Note my RC bandpass filter notes in the schematics were incorrect, you can calculate here, just put it between 1-100Hz, lower values are harder without larger capacitors. 
 <table>
   <tr>
     <td>
@@ -20,12 +20,6 @@ Note my RC bandpass filter notes in the schematics were wrong as I tried to scal
     </td>
     <td>
       <img width="200px" src="https://github.com/user-attachments/assets/a81dac36-3ecf-41a9-b8cb-d12a59414333">
-    </td>
-    <td>
-      C1: 100nF<br/>
-      R1: 1.6MOhm<br/>
-      C2: 1nF<br/>
-      R2: 1.6MOhm<br/>
     </td>
   </tr>
 </table>
