@@ -69,19 +69,19 @@ Single and Dual OPA202/OPA2202 gain amplifiers. E.g. for pre-amplification. Grea
 The circuit is straight out of the datasheet for your typical bandpassed gain amp. Should work attached to a regular electrode to amplify 0-100Hz or other desired bandpowers.
 
 ### OPA202 (or pin compatible) VSSOP8 package (or pin compatible)
-![smtgain](./images/singleamp_SMT.PNG)
+![smtgain](./images/singleamp_SMTr2.PNG)
 
 ### OPA202 VSSOP8 package with 4mm electrode mount
-![smtgain2](./images/singleampSMTMount.PNG)
+![smtgain2](./images/singleampSMTMountr2.PNG)
 
 ### OPA202 SOIC8 package and thruhole resistors/capacitors (easier to hand solder)
-![smtgain3](./images/singleampThru.PNG)
+![smtgain3](./images/singleampThrur2.PNG)
 
 ### OPA202 SOIC8 package thruhole with 4mm electrode mount
-![smtgain4](./images/singleampThruholeMount.PNG)
+![smtgain4](./images/singleampThruholeMountr2.PNG)
 
 EAGLE drawings by Josh Brewster. Works in free EAGLE or you can import them elsewhere usually.
 
 Best prices are on TI.com just FYI...
 
-Free source!
+Free source! Definitely question my circuitry before you use it.
