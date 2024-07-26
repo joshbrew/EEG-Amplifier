@@ -16,10 +16,15 @@ Note my RC bandpass filter notes in the schematics were incorrect, you can calcu
 <table>
   <tr>
     <td>
-      <img width="200px" src="https://github.com/user-attachments/assets/620998ac-9d8f-46eb-b6f2-bab470447c01">
+      <img width="200px" src="https://github.com/user-attachments/assets/0b480666-d63d-422c-8c59-731e171d507b"><br/>
+      In our config, + is our reference <br/> 
+      (e.g. ear for EEG or opposite wrist for ECG)
     </td>
     <td>
       <img width="200px" src="https://github.com/user-attachments/assets/a81dac36-3ecf-41a9-b8cb-d12a59414333">
+    </td>
+    <td>
+      Gain = R2 / R1
     </td>
   </tr>
 </table>
